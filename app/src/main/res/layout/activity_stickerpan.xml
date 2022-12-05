@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stickerpan"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/nameTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=""
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/goal"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start|top"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="34dp"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="369dp">
+
+        <ImageView
+            android:id="@+id/black_apple_5"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_marginEnd="47dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/black_apple_6"
+            app:layout_constraintStart_toEndOf="@+id/black_apple_4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/black_apple" />
+
+        <ImageView
+            android:id="@+id/black_apple_6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="82dp"
+            android:layout_marginBottom="61dp"
+            app:layout_constraintBottom_toTopOf="@+id/black_apple_8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/black_apple_5"
+            app:layout_constraintTop_toBottomOf="@+id/black_apple_3"
+            app:srcCompat="@drawable/black_apple" />
+
+        <ImageView
+            android:id="@+id/black_apple_4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginBottom="45dp"
+            app:layout_constraintBottom_toTopOf="@+id/black_apple_7"
+            app:layout_constraintEnd_toStartOf="@+id/black_apple_5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/black_apple_1"
+            app:srcCompat="@drawable/black_apple" />
+
+        <ImageView
+            android:id="@+id/black_apple_2"
+            android:layout_width="70dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginBottom="144dp"
+            app:layout_constraintBottom_toTopOf="@+id/black_apple_8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/black_apple" />
+
+        <ImageView
+            android:id="@+id/black_apple_3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="74dp"
+            android:layout_marginBottom="39dp"
+            app:layout_constraintBottom_toTopOf="@+id/black_apple_6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/black_apple_1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/black_apple" />
+
+        <ImageView
+            android:id="@+id/black_apple_1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="127dp"
+            android:layout_marginBottom="54dp"
+            app:layout_constraintBottom_toTopOf="@+id/black_apple_4"
+            app:layout_constraintEnd_toStartOf="@+id/black_apple_3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/black_apple" />
+
+        <ImageView
+            android:id="@+id/black_apple_8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginBottom="53dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/black_apple_9"
+            app:layout_constraintStart_toEndOf="@+id/black_apple_7"
+            app:layout_constraintTop_toBottomOf="@+id/black_apple_2"
+            app:srcCompat="@drawable/black_apple" />
+
+        <ImageView
+            android:id="@+id/black_apple_7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginBottom="69dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/black_apple_8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/black_apple_4"
+            app:srcCompat="@drawable/black_apple" />
+
+        <ImageView
+            android:id="@+id/black_apple_9"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="91dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="88dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/black_apple_8"
+            app:layout_constraintTop_toTopOf="@+id/black_apple_6"
+            app:srcCompat="@drawable/black_apple" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
