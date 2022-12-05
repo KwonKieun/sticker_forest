@@ -38,7 +38,7 @@ public class SplashActivity extends AppCompatActivity {
             finish();
         } else { //최초 실행이 아닌 경우
             Log.d("Is first Time?", "not first");
-            Intent intent = new Intent(getApplicationContext(), treelist3Activity.class);
+            Intent intent = new Intent(getApplicationContext(), treelistActivity.class);
             startActivity(intent); //다음화면으로 넘어감
             finish();
         }

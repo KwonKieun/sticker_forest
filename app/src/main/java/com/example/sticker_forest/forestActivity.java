@@ -44,7 +44,7 @@ public class forestActivity extends AppCompatActivity {
 
 
                 Intent intent = new Intent(forestActivity.this,
-                        treelist3Activity.class);
+                        treelistActivity.class);
                 startActivity(intent);
             }
         });

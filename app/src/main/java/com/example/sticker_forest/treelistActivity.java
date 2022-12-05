@@ -24,7 +24,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class treelist3Activity extends AppCompatActivity {
+public class treelistActivity extends AppCompatActivity {
     ArrayList<ToDoModel> taskList;
     ToDoAdapter adapter;
     RecyclerView recyclerView;
@@ -45,7 +45,7 @@ public class treelist3Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_treelist3);
+        setContentView(R.layout.activity_treelist);
 
         textView = findViewById(R.id.nameTitle);
 

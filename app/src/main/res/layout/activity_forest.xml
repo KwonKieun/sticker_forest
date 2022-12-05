@@ -8,8 +8,6 @@
     android:orientation="vertical" >
 
 
-<!--    맞는지 모름   -->
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -97,11 +95,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             tools:ignore="MissingConstraints" />
 
-
-
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-<!--  여기까지  -->
 
 </LinearLayout>

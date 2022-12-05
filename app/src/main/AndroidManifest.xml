@@ -37,33 +37,20 @@
             android:exported="false"
             android:parentActivityName=".MainActivity" />
 
-<!--        <activity-->
-<!--            android:name = ".treelistActivity"-->
-<!--            android:label ="treelistActivity"-->
-<!--            tools:ignore="Instantiatable"-->
-<!--            android:exported="false"-->
-<!--            android:parentActivityName=".MainActivity" />-->
-
         <activity
-            android:name = ".treelist3Activity"
+            android:name = ".treelistActivity"
             android:label ="treelist3Activity"
             tools:ignore="Instantiatable"
             android:exported="false"
             android:parentActivityName=".MainActivity" />
 
-        <activity
-            android:name=".treeActivity"
-            android:label ="treeActivity"
-            tools:ignore="Instantiatable"
-            android:exported="false"
-            android:parentActivityName=".MainActivity" />
 
         <activity
             android:name=".stickerpanActivity"
             android:label ="stickerpanActivity"
             tools:ignore="Instantiatable"
             android:exported="false"
-            android:parentActivityName=".treelist3Activity" />
+            android:parentActivityName=".treelistActivity" />
 
     </application>
 
